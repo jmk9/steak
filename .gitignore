@@ -1,0 +1,47 @@
+# --- Python 관련 ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- 가상환경 ---
+.venv/
+env/
+venv/
+*.egg-info/
+.eggs/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- 딥러닝/머신러닝 체크포인트 & 로그 ---
+ckpts/
+checkpoints/
+monitor/
+logs/
+runs/              # tensorboard, wandb 로그
+wandb/
+
+# --- 데이터 ---
+data/
+datasets/
+*.npy
+*.npz
+*.csv
+*.h5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# --- 시스템/IDE 파일 ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- 빌드 산출물 ---
+build/
+dist/
